@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Stellar Mesh Hoodie",
+    "description": "Navigate the neon-lit streets in style with this breathable mesh hoodie. Featuring reflective silver panels and an adjustable hood, it's designed for those who live between the digital and physical realms.",
+    "collection": "Cyberpunk",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/cyber-mesh-hoodie-001.png",
+    "category": "Tops",
+    "brand": "Urban Threadline",
+    "subcategory": "Hoodies & Sweatshirts",
+    "price": 85.0,
+    "colors": [
+      "black",
+      "silver"
+    ],
+    "tags": [
+      "new in"
+    ],
+    "reviews": [
+      "The mesh material is surprisingly warm while being breathable.",
+      "Love how the reflective panels catch the light at night!",
+      "Perfect for my evening runs through the city."
+    ],
+    "product_id": "a7f3b2e1-4d8c-42a6-9e7f-1c5d8f3a9b2e"
+  },
+  {
+    "name": "Meadow Song Embroidered Dress",
+    "description": "Float through sun-dappled gardens in this ethereal dress adorned with hand-embroidered wildflowers. The flowing skirt and delicate puff sleeves make every moment feel like a pastoral dream.",
+    "collection": "Cottagecore",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/meadow-dress-002.png",
+    "category": "Dresses & Jumpsuits",
+    "brand": "Loom & Aura",
+    "subcategory": "Casual Dresses",
+    "price": 95.0,
+    "colors": [
+      "cream",
+      "yellow"
+    ],
+    "tags": [
+      "most loved",
+      "sale"
+    ],
+    "reviews": [
+      "This dress makes me feel like I stepped into a fairytale!",
+      "The embroidery is absolutely exquisite and so detailed.",
+      "Comfortable enough for a full day of gardening or picnicking."
+    ],
+    "product_id": "b2e9f7a3-5c1d-4e8f-a9b6-3f8c2d1e7a4b"
+  },
+  {
+    "name": "Woodland Forager Utility Vest",
+    "description": "Embrace your inner adventurer with this multi-pocketed vest in earthy moss and bark tones. Features asymmetrical stitching and repurposed fabric patches that celebrate nature's beautiful chaos.",
+    "collection": "Goblincore",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/forager-vest-003.png",
+    "category": "Outerwear",
+    "brand": "Canvas & Co.",
+    "subcategory": "Vests",
+    "price": 72.0,
+    "colors": [
+      "green",
+      "brown"
+    ],
+    "tags": [],
+    "reviews": [
+      "So many pockets! Perfect for collecting mushrooms and interesting rocks.",
+      "The patchwork design is unique and feels very authentic.",
+      "Durable and comfortable for long hikes in the woods."
+    ],
+    "product_id": "c8d4e2f1-7a9b-4c3e-8f5d-2a1e9b7c6d3f"
+  },
+  {
+    "name": "Luminous Wisdom Pendant",
+    "description": "Channel the light of knowledge with this delicate gold pendant featuring an open book charm encrusted with tiny crystals. Perfect for the scholarly soul who carries stories close to their heart.",
+    "collection": "Light Academia",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/wisdom-pendant-004.png",
+    "category": "Accessories",
+    "brand": "Nova Nest",
+    "subcategory": "Jewelry",
+    "price": 48.0,
+    "colors": [
+      "gold",
+      "white"
+    ],
+    "tags": [
+      "new in"
+    ],
+    "reviews": [
+      "Such a thoughtful piece, I wear it to every lecture!",
+      "The crystals catch the light beautifully, very elegant.",
+      "A perfect gift for book lovers and students alike."
+    ],
+    "product_id": "d9e5f3a2-8b1c-4d7e-9a6f-3c2d8e1f7a5b"
+  },
+  {
+    "name": "Midnight Scholar Oxford Shoes",
+    "description": "Step into the library with confidence in these classic leather oxfords. The deep burgundy leather and traditional broguing details embody timeless academic sophistication.",
+    "collection": "Dark Academia",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/scholar-oxfords-005.png",
+    "category": "Footwear",
+    "brand": "Solemn Chic",
+    "subcategory": "Dress Shoes",
+    "price": 145.0,
+    "colors": [
+      "burgundy",
+      "black"
+    ],
+    "tags": [
+      "most loved"
+    ],
+    "reviews": [
+      "These shoes complete my entire aesthetic perfectly.",
+      "Took a week to break in but now they're incredibly comfortable.",
+      "The quality is outstanding, definitely worth the investment.",
+      "I feel like I belong in an old university library wearing these."
+    ],
+    "product_id": "e1f6a4b3-9c2d-4e8f-a7b5-4d3e9f2a8c6b"
+  },
+  {
+    "name": "Dewdrop Chiffon Blouse",
+    "description": "Light as morning mist, this ethereal chiffon blouse features iridescent sequins scattered like dewdrops across soft lavender fabric. Bell sleeves and a flowing silhouette create an enchanted woodland aesthetic.",
+    "collection": "Fairycore",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/dewdrop-blouse-006.png",
+    "category": "Tops",
+    "brand": "Loom & Aura",
+    "subcategory": "Blouses & Shirts",
+    "price": 65.0,
+    "colors": [
+      "purple",
+      "silver"
+    ],
+    "tags": [],
+    "reviews": [
+      "Feels magical, like wearing a piece of the fairy realm!",
+      "The fabric is so light and flowy, perfect for summer.",
+      "The sequins add just the right amount of sparkle without being overwhelming."
+    ],
+    "product_id": "f2g7b5c4-a3e1-4f9d-b8c6-5e4f1a3b9d7c"
+  },
+  {
+    "name": "Hologram Flex Cargo Pants",
+    "description": "These revolutionary cargo pants combine technical functionality with eye-catching style. Water-resistant fabric meets holographic accent stripes and modular pocket attachments for the ultimate urban utility.",
+    "collection": "Techwear",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/holoflax-cargo-007.png",
+    "category": "Bottoms",
+    "brand": "Urban Threadline",
+    "subcategory": "Trousers & Pants",
+    "price": 135.0,
+    "colors": [
+      "black",
+      "silver",
+      "grey"
+    ],
+    "tags": [
+      "new in"
+    ],
+    "reviews": [
+      "The modularity is amazing, I can customize based on what I need each day.",
+      "Waterproof and stylish - finally pants that do both!",
+      "The holographic stripes look even cooler in person."
+    ],
+    "product_id": "g3h8c6d5-b4f2-4a1e-c9d7-6f5g2b4c1e8d"
+  },
+  {
+    "name": "Retro Pop Butterfly Clip Set",
+    "description": "Take it back to the early 2000s with this set of five iridescent butterfly hair clips. Each clip features vibrant metallic wings in pink, blue, and purple - perfect for creating that iconic Y2K hairstyle.",
+    "collection": "Y2K",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/butterfly-clips-008.png",
+    "category": "Accessories",
+    "brand": "Vivid Verse",
+    "subcategory": "Hair Accessories",
+    "price": 18.0,
+    "colors": [
+      "pink",
+      "blue",
+      "purple"
+    ],
+    "tags": [
+      "sale"
+    ],
+    "reviews": [
+      "These brought back so many childhood memories!",
+      "Great quality and they stay in place all day.",
+      "The perfect finishing touch to my Y2K outfits."
+    ],
+    "product_id": "h4i9d7e6-c5g3-4b2f-d1e8-7g6h3c5d2f9e"
+  },
+  {
+    "name": "Moonlight Gathering Maxi Skirt",
+    "description": "Dance barefoot under the stars in this flowing cream linen maxi skirt. Features a high waistband with embroidered vines and a tiered construction that moves like water with every step.",
+    "collection": "Cottagecore",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/moonlight-skirt-009.png",
+    "category": "Bottoms",
+    "brand": "Canvas & Co.",
+    "subcategory": "Skirts",
+    "price": 78.0,
+    "colors": [
+      "cream",
+      "green"
+    ],
+    "tags": [
+      "most loved"
+    ],
+    "reviews": [
+      "This skirt is pure magic, so comfortable and beautiful!",
+      "The embroidery on the waistband is stunning, clearly done with care.",
+      "Perfect length and the linen is high quality.",
+      "I've worn this to every summer gathering - always get compliments!"
+    ],
+    "product_id": "i5j1e8f7-d6h4-4c3g-e2f9-8h7i4d6e3g1f"
+  },
+  {
+    "name": "Neon Circuit Board Sunglasses",
+    "description": "Shield your eyes from the glare of the megacity with these angular sunglasses. Features neon blue LED accents along the frames and polarized silver-mirror lenses for maximum style and protection.",
+    "collection": "Cyberpunk",
+    "image_url": "https://d3o574pyao1sq3.cloudfront.net/fashion/circuit-shades-010.png",
+    "category": "Accessories",
+    "brand": "NixNada",
+    "subcategory": "Sunglasses",
+    "price": 95.0,
+    "colors": [
+      "black",
+      "blue",
+      "silver"
+    ],
+    "tags": [
+      "new in"
+    ],
+    "reviews": [
+      "The LED feature is so cool and actually works great at night!",
+      "Comfortable fit and the lenses are excellent quality.",
+      "Got stopped on the street multiple times - everyone wants to know where I got these."
+    ],
+    "product_id": "j6k2f9g8-e7i5-4d4h-f3g1-9i8j5e7f4h2g"
+  }
+]
