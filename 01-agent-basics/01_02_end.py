@@ -36,7 +36,7 @@ def search_e_commerce_dataset(query: str) -> str:
 
 
 async def main():
-    llm = OpenAI(model="gpt-4.1")
+    llm = OpenAI(model="gpt-4.1-mini")
     agent_prompt = """
     You are a helpful assistant that can help answer siimple use questions or 
     search through clothing items and prices in an e-commerce dataset.
