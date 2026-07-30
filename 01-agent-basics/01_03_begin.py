@@ -9,7 +9,7 @@ from llama_index.llms.openai import OpenAI
 from dotenv import load_dotenv
 from llama_index.utils.workflow import draw_all_possible_flows
 
-load_dotenv()
+load_dotenv(".env.example")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -26,8 +26,55 @@ def create_query_engine():
 
 query_engine = create_query_engine()
 
+class EvaluateQuery(StartEvent):
+    query: str
+
+class ECommerceQuestion(Event):
+    query: str
+
+class OtherQuestion(Event):
+    query: str
+    
+class ECommerceAgent(Workflow):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.llm = OpenAI(model="gpt-4.1-mini")
+
+    @step
+    def evaluate_query(self, ev: EvaluateQuery) -> ECommerceQuestion | OtherQuestion:
+        response = self.llm.complete(
+            f"Determine if the following query is related to e-commerce or not: {ev.query}. "
+            "If it is related to clothing items and prices, return 'ECommerce'. "
+            "If it is about something else, return 'Other'."
+        )
+
+        if response.text == "ECommerce":
+            return ECommerceQuestion(query = ev.query)
+        else:
+            return OtherQuestion(query = ev.query)
+        
+    @step
+    def answer_ecommerce_question(self, ev: ECommerceQuestion) -> StopEvent:
+        response = query_engine.query(ev.query)
+        return StopEvent(response.response)
+    
+    @step
+    def answer_other_question(self, ev: OtherQuestion) -> StopEvent:
+        response = self.llm.complete(
+            f"""Inform the user that you are not able to answer that question: '{ev.query}'
+            because you are an e-commerce agent for clothing items.
+            Advise them on what you can help them with.
+            """
+            )
+        return StopEvent(response.text)
+
 async def main():
-    pass
+    agent = ECommerceAgent()
+    result = await agent.run(query="Where can I buy a macbook?")
+
+    draw_all_possible_flows(agent, filename="ecommerce_agent_flow.html")
+    print(f"Agent: {result}")
 
 
 if __name__ == "__main__":
