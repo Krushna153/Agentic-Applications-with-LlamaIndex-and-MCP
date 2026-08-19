@@ -8,8 +8,9 @@ from llama_index.core import Document, VectorStoreIndex
 from llama_index.llms.openai import OpenAI
 from dotenv import load_dotenv
 from llama_index.utils.workflow import draw_all_possible_flows
+from llama_index.core.memory import Memory 
 
-load_dotenv(".env.example")
+load_dotenv(".env")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -70,11 +71,23 @@ class ECommerceAgent(Workflow):
         return StopEvent(response.text)
 
 async def main():
+    memory = Memory.from_defaults(token_limit=40000)
     agent = ECommerceAgent()
-    result = await agent.run(query="Where can I buy a macbook?")
+
+    while True:
+        user_input = input("Enter your query: ")
+        if user_input.lower() in ["exit", "quit"]:
+            print("Exiting the agent. Goodbye!")
+            break
+            
+        result = await agent.run(query = user_input, memory=memory)
+        print(f"Agent: {result}")
+
+
+    # result = await agent.run(query="Where can I buy a macbook?")
 
     draw_all_possible_flows(agent, filename="ecommerce_agent_flow.html")
-    print(f"Agent: {result}")
+    # print(f"Agent: {result}")
 
 
 if __name__ == "__main__":
