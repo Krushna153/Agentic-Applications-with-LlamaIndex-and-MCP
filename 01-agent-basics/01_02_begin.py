@@ -10,7 +10,7 @@ from llama_index.core.memory import Memory
 
 from dotenv import load_dotenv
 
-load_dotenv(".env.example")
+load_dotenv(".env")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
